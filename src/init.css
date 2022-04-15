@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.link-first {
+    @apply text-pink-400 block p-5 font-bold hover:text-yellow-400;
+}
+
+.link {
+    @apply text-white block p-5 font-bold hover:text-yellow-400;
+}
+
+.dot {
+    @apply h-3 w-3  bg-blue-600 rounded-full;
+}
